@@ -1,0 +1,22 @@
+/*!
+    Theme Name: crypto_theme
+    Description: Wordpress theme based on bootstrap
+    Version: 1.0.0
+    Author: Ryszard Waniek
+    Author URI: 
+    Text Domain: crypto
+    Tags: Bootstrap, wordpress
+
+*/
+
+// Base
+@import "base/variables";
+@import "base/wpcore";
+@import "base/mixins";
+@import "base/layout";
+@import "base/typography";
+@import "base/_backgrounds.scss";
+@import "base/heights";
+@import "base/widths";
+@import "media_queries/min_576";
+@import "media_queries/min_1119";

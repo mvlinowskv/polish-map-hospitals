@@ -1,0 +1,98 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    margin-top: 0!important;
+}
+
+.bg-main-color {
+    background: #ffdef547;
+}
+
+.index-2 {
+    z-index: 2;
+}
+
+.card {
+    border: 0;
+    box-shadow: rgba(190, 190, 190, 0.2) 0px 3px 8px, rgba(190, 190, 190, 0.2) 0px 3px 8px, rgba(190, 190, 190, 0.1) 0px 3px 8px, rgba(190, 190, 190, 0.1) 0px 3px 8px;
+}
+
+.w-mac-img {
+    width: calc(10rem + 53vw);
+}
+
+.bg-gradient-grey {
+    background: linear-gradient(to bottom, #efefef, #f4f4f4);
+}
+
+#w {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.card {
+    &-visible {
+        opacity: 1;
+        z-index: 1;
+        transition: all 0.4s linear;
+    }
+    &-hidden {
+        opacity: 0;
+        z-index: -1;
+        transition: all 0.4s linear;
+    }
+}
+
+.accordion {
+    &-item {
+        height: 100%;
+        transition: height 0.4s ease-out;
+    }
+    &-collapse {
+        height: 0;
+        overflow: hidden;
+        transition: height 0.4s ease-out;
+    }
+    &-open {
+        height: 10ch;
+        transition: height 0.4s ease-out;
+        overflow: hidden;
+    }
+}
+
+.arrow {
+    &-svg {
+        transform: rotate(0deg);
+        transition: transform 0.4s ease-out;
+    }
+}
+
+.card {
+    &:hover {
+        .arrow {
+            &-svg {
+                transform: rotate(180deg);
+                transition: transform 0.4s ease-out;
+            }
+        }
+    }
+}
+
+.row {
+    &-card {
+        @media (min-width: 992px) {
+            max-height: 85vh;
+            overflow-y: auto;
+        }
+    }
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+a {
+    color: $primary-color;
+}

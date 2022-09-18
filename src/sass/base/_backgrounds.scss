@@ -1,0 +1,27 @@
+.bg-city {
+    background-image: url('');
+}
+
+.bg-fixed {
+    background-attachment: fixed!important;
+}
+
+.bg-center {
+    background-position: center!important;
+}
+
+.bg-bottom {
+    background-position: bottom!important;
+}
+
+.bg-pos-manual {
+    background-position: -25% 85% !important;
+}
+
+.bg-cover {
+    background-size: cover!important;
+}
+
+.bg-top {
+    background-position: top!important;
+}

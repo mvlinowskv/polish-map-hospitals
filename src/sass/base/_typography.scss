@@ -1,0 +1,24 @@
+.color-h {
+    color: $primary-color
+}
+
+.color-black {
+    color: #505050;
+}
+
+.font-big {
+    font-size: calc(1rem + 1.25vw);
+    line-height: 1;
+}
+
+.font-small {
+    font-size: calc(.65rem + .5vw);
+}
+
+.font-medium {
+    font-size: calc(1rem + 0.25vw);
+}
+
+.fw-600 {
+    font-weight: 600;
+}
