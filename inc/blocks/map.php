@@ -9,7 +9,7 @@
     <div class="w-100 d-flex flex-column align-items-center justify-content-center">
 
         <div class="position-relative h-100 d-flex align-items-center container-fluid">
-            <span class="color-h text-uppercase font-medium fw-bold text-center position-absolute" id="status-text">
+            <span class="color-h text-uppercase font-medium fw-bold text-start position-absolute" id="status-text">
                 <?php the_field('main-text'); ?>
             </span>
             <?php
